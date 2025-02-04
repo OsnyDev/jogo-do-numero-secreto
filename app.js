@@ -6,7 +6,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2}); //velocidade da voz (rate 1)
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2}); //velocidade da voz (rate 0.5)
 }
 
 //Outra Opção de Fala Web Speech API
